@@ -1,0 +1,30 @@
+{
+  "name": "dynamodb-projection-expression-helper",
+  "version": "1.0.0",
+  "description": "Make easily dynamodb projection expression",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js lib/* __test__/*",
+    "test": "jest"
+  },
+  "keywords": [
+    "dynamodb",
+    "projection",
+    "params",
+    "helper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chomman/dynamodb-projection-expression-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chomman/dynamodb-projection-expression-helper/issues"
+  },
+  "author": "Taehyun Jung",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-plugin-jest": "^1.0.2",
+    "jest": "^18.1.0"
+  }
+}
